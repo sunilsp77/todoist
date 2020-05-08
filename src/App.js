@@ -1,12 +1,14 @@
-import React from "react";
-import { Header } from "./components/layout/Header";
-import { Content } from "./components/layout/Content";
+import React from 'react';
 
-export const App = () => (
-  <div className="App">
-    <Header />
-    <Content />
-  </div>
-);
+export const App = ()  =>  (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Hello there!
+        </p>
+      </header>
+    </div>
+  );
+
 
 export default App;
