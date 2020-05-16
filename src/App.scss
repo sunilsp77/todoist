@@ -262,9 +262,9 @@ header {
   border-right: $generic-border;
   background-color: #fafafa;
 
-  @include mq("900px") {
-    display: none;
-  }
+  // @include mq("900px") {
+  //   display: none;
+  // }
 
   li {
     &:hover .sidebar__project-delete {
